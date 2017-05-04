@@ -50,7 +50,7 @@ public class latlang extends AppCompatActivity {
         setContentView(R.layout.latlang);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-        longitudeValueBest = (TextView) findViewById(R.id.longitudeValueBest);
+        longitudeValueBest = (TextView)  findViewById(R.id.longitudeValueBest);
         latitudeValueBest = (TextView) findViewById(R.id.latitudeValueBest);
         Log.i("hi","in latalng class");
          Button btn;  //to initiate the default gatheing of location data without any button press
